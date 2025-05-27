@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark;
+}
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import '@carbon/charts-svelte/styles.css';
