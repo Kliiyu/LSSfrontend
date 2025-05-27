@@ -1,38 +1,60 @@
-# sv
+# LSS Frontend
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This guide will help you install and run the LSS Frontend application on Windows and Linux.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Git
+- Node.js and npm
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Getting Started
 
-# create a new project in my-app
-npx sv create my-app
-```
+### Download from GitHub
 
-## Developing
+1. Clone the repository using Git:
+    ```
+    git clone https://github.com/yourusername/LSSfrontend.git
+    cd LSSfrontend
+    ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+2. Alternatively, download the ZIP file from GitHub:
+    - Go to the repository page
+    - Click the "Code" button
+    - Select "Download ZIP"
+    - Extract the ZIP file to your preferred location
 
-```bash
-npm run dev
+### Running on Windows
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. Open PowerShell as Administrator
+2. Navigate to the project directory:
+    ```
+    cd C:\path\to\LSSfrontend
+    ```
+3. Run the start script:
+    ```
+    .\start.ps1
+    ```
+4. The application should now be running and accessible in your browser
 
-## Building
+### Running on Linux
 
-To create a production version of your app:
+1. Open Terminal
+2. Navigate to the project directory:
+    ```
+    cd /path/to/LSSfrontend
+    ```
+3. Make the start script executable:
+    ```
+    chmod +x start.sh
+    ```
+4. Run the start script:
+    ```
+    ./start.sh
+    ```
+5. The application should now be running and accessible in your browser
 
-```bash
-npm run build
-```
+## Troubleshooting
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- If you encounter permission issues on Windows, make sure to run PowerShell as Administrator
+- On Linux, ensure the `start.sh` script has execute permissions
+- Check that Node.js and npm are properly installed on your system
