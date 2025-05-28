@@ -16,7 +16,6 @@
     let sortBy = 'name';
     let ascending = true;
 
-    // Mock data with inventory items
     const mockInventoryItems = [
         { id: 1, name: 'Laptop', category: 'Elektronikk', image: 'https://placehold.co/100x100?text=Laptop', location: 'Kontor A', stock: 5 },
         { id: 2, name: 'Smarttelefon', category: 'Elektronikk', image: 'https://placehold.co/100x100?text=Phone', location: 'Kontor B', stock: 8 },
