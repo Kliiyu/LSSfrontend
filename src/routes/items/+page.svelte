@@ -8,7 +8,7 @@
         category: string;
         image: string;
         location: string;
-        assignedUser: string; // Added assigned user field
+        assignedUser: string;
     }
     
     let items: Item[] = [];
@@ -17,7 +17,6 @@
     let sortBy = 'name';
     let ascending = true;
 
-    // Mock data with locations and assigned users
     const mockItems = [
         { id: 1, name: 'Laptop', serialNumber: 'SN-L1001', category: 'Elektronikk', image: 'https://placehold.co/100x100?text=Laptop', location: 'Kontor A', assignedUser: 'John Doe' },
         { id: 2, name: 'Smarttelefon', serialNumber: 'SN-S2002', category: 'Elektronikk', image: 'https://placehold.co/100x100?text=Phone', location: 'Kontor B', assignedUser: 'Jane Smith' },
